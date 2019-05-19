@@ -459,15 +459,28 @@ public class MyCursorAdapter extends SimpleCursorAdapter {
 #### 笔记分享
 在`editor_options_menu.xml`中添加：<br>
 ```
+    <item android:id="@+id/menu_share"
+        android:title="share"
+        android:showAsAction="ifRoom|withText"/>
+```
+在NoteEditor中onOptionsItemSelected添加：<br>
+```
+case R.id.menu_share:
+            sendTo(this,mText.getText().toString());
+            break;
+```
+在NoteEditor中添加`sendTo`函数：<br>
+```
+private void sendTo(Context context, String info) {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.putExtra(Intent.EXTRA_TEXT, info);
+        intent.setType("text/plain");
+        context.startActivity(intent);
+    }
 ```
 <br>
-```
-```
-<br>
-![image]()
-![image]()
-
-
+![image](https://github.com/he476/NotePad/blob/master/images/13.png)
+![image](https://github.com/he476/NotePad/blob/master/images/14.jpg)
 
 
 
