@@ -479,7 +479,7 @@ private void sendTo(Context context, String info) {
     }
 ```
 <br>
-![image](https://github.com/he476/NotePad/blob/master/images/13.png)
+![image](https://github.com/he476/NotePad/blob/master/images/13.png)<br>
 ![image](https://github.com/he476/NotePad/blob/master/images/14.jpg)
 
 
