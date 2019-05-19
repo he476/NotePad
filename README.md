@@ -457,7 +457,15 @@ public class MyCursorAdapter extends SimpleCursorAdapter {
 ![image](https://github.com/he476/NotePad/blob/master/images/12.png)
 
 #### 笔记分享
-
+在`editor_options_menu.xml`中添加：<br>
+```
+```
+<br>
+```
+```
+<br>
+![image]()
+![image]()
 
 
 
