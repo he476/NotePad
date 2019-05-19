@@ -450,13 +450,16 @@ public class MyCursorAdapter extends SimpleCursorAdapter {
 ```
 三种排序方式，效果如图：<br>
 按创建时间排序：<br>
-![image]()
+![image](https://github.com/he476/NotePad/blob/master/images/10.png)
 按修改时间排序：<br>
-![image]()
+![image](https://github.com/he476/NotePad/blob/master/images/11.png)
 按颜色排序：<br>
-![image]()
+![image](https://github.com/he476/NotePad/blob/master/images/12.png)
 
 #### 笔记分享
+
+
+
 
 
 
