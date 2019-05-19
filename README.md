@@ -450,11 +450,11 @@ public class MyCursorAdapter extends SimpleCursorAdapter {
 ```
 三种排序方式，效果如图：<br>
 按创建时间排序：<br>
-![image](https://github.com/he476/NotePad/blob/master/images/10.png)
+![image](https://github.com/he476/NotePad/blob/master/images/10.png)<br>
 按修改时间排序：<br>
-![image](https://github.com/he476/NotePad/blob/master/images/11.png)
+![image](https://github.com/he476/NotePad/blob/master/images/11.png)<br>
 按颜色排序：<br>
-![image](https://github.com/he476/NotePad/blob/master/images/12.png)
+![image](https://github.com/he476/NotePad/blob/master/images/12.png)<br>
 
 #### 笔记分享
 在`editor_options_menu.xml`中添加：<br>
@@ -478,9 +478,10 @@ private void sendTo(Context context, String info) {
         context.startActivity(intent);
     }
 ```
-<br>
+效果如下：<br>
+
 ![image](https://github.com/he476/NotePad/blob/master/images/13.png)<br>
-![image](https://github.com/he476/NotePad/blob/master/images/14.jpg)
+![image](https://github.com/he476/NotePad/blob/master/images/14.jpg)<br>
 
 
 
